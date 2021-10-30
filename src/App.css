@@ -1,38 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Logo {
+  width: 25vw;
+  margin: auto 0;
+  font-weight: bold;
+  justify-content: center;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navbar {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 80vw;
 }
+
+.Navbar ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.Navbar ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.TextBar {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  line-height: 6vh;
+  width: 90vw;
+  height: 6vh;
+  background-color: #555555;
+  border-radius: 7.5px;
+  text-align: center;
+
+}
+
+.Apresentation h2 {
+  display: flex;
+  margin: 0 2.5vw;
+}
+
+.Apresentation p {
+  display: flex;
+  margin: 0 2.5vw;
+}
+
+.Apresentation img {
+  margin: 2.5vh ;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+button {
+  background-color: #282c34;
+  border: solid 1px #555555 ;
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 50vw;
+}
+
+button:hover {
+  background-color: #444b58
+}
+
 
 .App-header {
+  margin-top: 15px;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(7px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

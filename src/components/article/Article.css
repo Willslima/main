@@ -1,0 +1,16 @@
+.Title {
+  display: flex;
+  margin: 0 3vw;
+  font-weight: bold;
+}
+
+.Title span {
+  border-bottom: 3px solid #555555;
+}
+
+.Content {
+  text-align: justify;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  margin: 0 2.5vw;
+}

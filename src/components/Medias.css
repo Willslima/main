@@ -1,0 +1,12 @@
+.medias {
+  display: flex;
+  padding: 0 2.5vw;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  padding-left: 6.5px;
+}
