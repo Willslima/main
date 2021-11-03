@@ -67,6 +67,7 @@ a {
   margin: 2.5vh ;
   border: 3px solid #fff;
   border-radius: 50%;
+  
 }
 
 button {
@@ -99,3 +100,4 @@ button:hover {
   font-size: calc(7px + 2vmin);
   color: white;
 }
+

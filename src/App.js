@@ -14,32 +14,32 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <TextBar text="Hello, I'm a front-end developer based in Brazil!" />
+        <TextBar text="Olá, eu sou um front-end developer 😎" />
         <Apresentation
           title="Willian SLima"
           paragraph=" 
-        ( Musician/ Developer/ Gamer )"
+        ( Músico/ Developer/ Gamer )"
           image={Me}
         />
         <Article
-          title="Work"
-          article="   Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum..."
+          title="Trabalho"
+          article=" Atualmente trabalhando como Assistente de NOC (Network operation center) com monitoramento de redes e manutenção do sistema. "
         />
 
         {
           <button>
-            <a href="#"> Portfolio </a>
+            <a href="https://github.com/Willslima/" target='_blank'> Portfolio </a>
           </button>
         }
 
         <Article
           title="Bio"
-          article="   Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum..."
+          article=" Me chamo Willian, tenho 27 anos, sou dev front-end em busca do fullstack, estudando para ter uma melhora constante, buscando novos desafios para a carreira."
         />
 
         <Article
-          title="I 🤍"
-          article="   Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum..."
+          title="Eu 🤍"
+          article="Técnologia, música, jogos, desenvolver, aprender, me desafiar, e Deus acima de tudo."
         />
 
         <Article title="On the web" article="">
